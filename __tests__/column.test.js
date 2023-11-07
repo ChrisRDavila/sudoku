@@ -25,10 +25,10 @@ describe('column', () => {
     expect(column.doublesCheck()).toBe(false);
   });
 
-  // test('should return true if all tiles are numbers from 1 to 9', () => {
-  //   const column = new Column(1,2,3,4,5,6,7,8,9);
-  //   expect(column.numberCheck()).toBe(true);
-  // });
+  test('should return true if all tiles are numbers from 1 to 9', () => {
+    const column = new Column(1,2,3,4,5,6,7,8,9);
+    expect(column.numberCheck()).toBe(true);
+  });
 
   // test('should return false if any of the tiles is not a number from 1 to 9', () => {
   //   const column = new Column(0,2,3,4,5,6,7,8,9);
