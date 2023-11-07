@@ -14,4 +14,19 @@ describe('row', () => {
     expect(row.tile8).toEqual(8);
     expect(row.tile9).toEqual(9);
   });
-} )
+
+  test('should check if number is repeated in row', () => {
+    const row = new Row(1,2,3,4,5,6,7,8,9);
+    const row2 = new Row(1,1,3,4,5,6,7,8,9);
+    expect(row.doublesCheck()).toBe(true);
+    expect(row2.doublesCheck()).toBe(false);
+  });
+
+  test('should check if all tiles are numbers from 1 to 9', () => {
+    const row = new Row(1,2,3,4,5,6,7,8,9);
+    const row2 = new Row(1,2,3,4,5,6,7,8,10);
+    expect(row.numberCheck()).toBe(true);
+    expect(row2.numberCheck()).toBe(false);
+  });
+
+})
