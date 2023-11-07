@@ -15,10 +15,10 @@ describe('column', () => {
     expect(column.tile9).toEqual(9);
   });
 
-  // test('should return true if all numbers only appear once in column', () => {
-  //   const column = new Column(1,2,3,4,5,6,7,8,9);
-  //   expect(column.doublesCheck()).toBe(true);
-  // });
+  test('should return true if all numbers only appear once in column', () => {
+    const column = new Column(1,2,3,4,5,6,7,8,9);
+    expect(column.doublesCheck()).toBe(true);
+  });
 
   // test('should return false if all numbers only appear once in column', () => {
   //   const column = new Column(1,1,3,4,5,6,7,8,9);
