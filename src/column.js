@@ -21,3 +21,14 @@ Column.prototype.doublesCheck = function() {
   }
   return allGood;
 };
+
+Column.prototype.numberCheck = function() {
+  const column = [this.tile1, this.tile2, this.tile3, this.tile4, this.tile5, this.tile6, this.tile7, this.tile8, this.tile9];
+  let allGood = true;
+  column.forEach(function(tile) {
+    if (tile < 1 || tile > 9) {
+      allGood = false;
+      }
+    });
+    return allGood
+  }

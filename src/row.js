@@ -31,6 +31,4 @@ Row.prototype.numberCheck = function() {
       }
     });
     return allGood
-  }
-
-  
+  }  
