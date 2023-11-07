@@ -28,7 +28,7 @@ Column.prototype.numberCheck = function() {
   column.forEach(function(tile) {
     if (tile < 1 || tile > 9) {
       allGood = false;
-      }
-    });
-    return allGood
-  }
+    }
+  });
+  return allGood
+};
