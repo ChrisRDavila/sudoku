@@ -1,8 +1,8 @@
-# (Application Name)
+# Sodoku
 
-#### (Brief Description of Application)
+#### Pracitice with TDD, jest and setting up tesing environement
 
-#### By (Your Name Here)
+#### By Christopher Davila
 
 ## Technologies Used
 
@@ -10,7 +10,7 @@
 * _npm_
 * _html_
 * _javascript_
-* _jist_
+* _jest_
 * _API_
 
 
